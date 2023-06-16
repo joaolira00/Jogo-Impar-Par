@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Par ou Ímpar</h2>
+    <h4 id="rodadas">Rodadas: 0</h4>
+    <label id="pontosJogador">Jogador: 0</label>
+    <br>
+    <label id="pontosBot">Bot: 0</label>
+    <hr>
+    <br>
+    Insira seu palpite:
+    <br>
+    <input type="text" id="palpite" placeholder="Par ou ímpar">
+    <br>
+    <br>
+    Insira sua aposta:
+    <br>
+    <input type="number" id="aposta" max="10" placeholder="Número de 0 a 10">
+    <br>
+    <button onclick="Sorteio()">Jogar!</button>
+    <br>
+    <br>
+    <div id="resultado"></div>
+</body>
+</html>
+<script src="main.js"></script>
